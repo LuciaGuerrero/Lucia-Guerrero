@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+header {
+    text-align: right;
+    padding: 6px 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+main {
+    padding: 150px;
+    text-align: center;
+}
+
+#logo {
+    margin-bottom: 20px;
+}
+
+#search {
+    margin-bottom: 20px;
+}
+
+#search input {
+    width: 500px;
+    border-radius: 25px;
+    padding: 15px 38px;/*En todos los lados*/
+    font-size: 16px;
+    border: 1px solid #eee;
+    background: url("mic.png") no-repeat scroll 550px 9px;
+    background-size: 18px;
+}
+
+#search input:focus{
+    outline: none;
+    box-shadow: 0 1px 6px 0px rgba(32,33,36,0.28);
+}
+
+#search input:hover{
+    box-shadow: 0 1px 6px 0px rgba(32,33,36,0.28);
+}
+
+#apps {
+    width: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#profile {
+    width: 30px;
+    border-radius: 40px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.link-header {
+    color: black;
+    margin: 0px 0px 0px 10px;
+    vertical-align: middle;
+}
+
+.link-header:link {
+    text-decoration: none;
+}
+
+.link-header:hover {
+    text-decoration: underline;
+}
+
+.button-search {
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: #fff solid 1px;
+    background-image: -webkit-linear-gradient(top,#F5F5F5,#F1F1F1);
+    color: #5F6368;
+}
+
+.button-search:hover {
+    border: #CCC solid 1px;
+    color:black;
+    cursor: pointer;
+}
+
+#buttons p {
+    margin-top: 25px;
+}
+
+#buttons p > a {
+    text-decoration: none;
+}
+
+#buttons p > a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background: #f2f2f2;
+}
+
+#footer-links {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#country {
+    border: #CCC solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+#country p {
+    color: #5F6368;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.extra-links  {
+    color: #5F6368;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.extra-links:hover {
+    text-decoration: underline;
+}
+
+label {
+    position: relative;
+}
+
+label::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 21px;
+    background-image: url("lupa.svg");
+    height: 21px;
+    fill:#cecece;
+
+}
